@@ -1,0 +1,108 @@
+,Window position,,FST,,,Sex Bias,,Gene information,,,
+Chromosome,Start,End,White vs. Common,White vs. Bras d'Or,Common vs. Bras d'Or,Direction,Magnitude,ENSEMBL ID,Name,Description,GO Terms
+1,12225001,12300000,0.258309625,0.331790025,0.009443843,M,0.22,ENSGACG00000011157,traf4a,tnf receptor-associated factor 4a,"zinc ion binding, protein binding, signal transduction, protein ubiquitination, regulation of apoptotic process, ubiquitin-protein transferase activity, metal ion binding"
+1,12225001,12300000,0.258309625,0.331790025,0.009443843,F,0.062,ENSGACG00000011119,tada2a,transcriptional adaptor 2A,"intracellular, zinc ion binding, protein binding, chromatin binding"
+1,19500001,19575000,0.25215425,0.137593975,0.024919275,F,0.211,ENSGACG00000013633,akap1b,A kinase,"RNA binding, nucleic acid binding"
+1,19500001,19575000,0.25215425,0.137593975,0.024919275,M,0.1,ENSGACG00000013619,dhrs13b,dehydrogenase/reductase,"metabolic process, oxidoreductase activity"
+1,21600001,21675000,0.1219085,0.06319494,0.016370575,M,0.161,ENSGACG00000014296,inha,"inhibin, alpha",growth factor activity
+1,22650001,22725000,0.076106257,0.135708571,0.039490825,M,0.345,ENSGACG00000014752,,,
+1,22650001,22725000,0.076106257,0.135708571,0.039490825,F,0.108,ENSGACG00000014735,lancl1,LanC antibiotic synthetase component C-like 1,
+4,13800001,13875000,0.126783839,0.080881163,0.029780213,F,0.114,ENSGACG00000018408,CDHR2,cadherin related family member 2,"membrane, plasma membrane, cell adhesion, homophilic cell adhesion via plasma membrane adhesion molecules, calcium ion binding"
+4,24600001,24675000,0.140100333,0.0181644,0.090390967,M,0.19,ENSGACG00000019373,snx4 (1 to many),sorting nexin 4,phosphatidylinositol binding
+4,24600001,24675000,0.140100333,0.0181644,0.090390967,M,0.035,ENSGACG00000019383,ppp6r2a,"protein phosphatase 6, regulatory subunit 2a",
+4,25350001,25425000,0.1183779,0.193119883,0.05349665,M,0.184,ENSGACG00000019480,,,
+4,25500001,25575000,0.006242863,0.216117,0.143218,F,0.151,ENSGACG00000019497,apex1,APEX nuclease,"DNA binding, intracellular, DNA repair, nuclease activity, endonuclease activity, positive regulation of gene expression, heart contraction, heart looping, negative regulation of apoptotic process"
+4,25500001,25575000,0.006242863,0.216117,0.143218,F,0.047,ENSGACG00000019505,si:dkey-14k9.3,si:dkey-14k9.3,"zinc ion binding, metal ion binding"
+5,3900001,3975000,0.059458834,0.102522165,0.033710008,M,0.471,ENSGACG00000003652,g6pca.2,"glucose-6-phosphatase a, catalytic subunit, tandem duplicate 2","membrane, catalytic activity"
+5,3900001,3975000,0.059458834,0.102522165,0.033710008,M,0.172,ENSGACG00000003660,g6pca.1,"glucose-6-phosphatase a, catalytic subunit, tandem duplicate 1","membrane, catalytic activity"
+5,8400001,8475000,0.108313211,0.114621883,0.007942396,F,0.05,ENSGACG00000006563,dclre1a,DNA cross-link repair 1A,"metal ion binding, "
+5,8400001,8475000,0.108313211,0.114621883,0.007942396,F,0.008,ENSGACG00000006575,nhlrc2,NHL repeat containing 2,protein binding
+5,8475001,8550000,0.151719696,0.171830148,0.003366929,M,0.224,ENSGACG00000006599,afap1l2,actin filament associated protein 1-like 2,
+6,2250001,2325000,0.1734548,0.0549806,0.04794928,M,0.107,ENSGACG00000002949,5-Mar,membrane-associated ring finger,"zinc ion binding, protein binding, metal ion binding"
+6,2325001,2400000,0.225760333,0.0929146,0.0490914,M,0.053,ENSGACG00000002988,cdc42ep3,CDC42 effector protein,
+6,15225001,15300000,0.114102882,0.154360102,0.011204753,M,0.066,ENSGACG00000011492,,,"transporter activity, transport, membrane, transmembrane transport"
+6,15225001,15300000,0.114102882,0.154360102,0.011204753,F,0.035,ENSGACG00000011471,cox20,COX20 cytochrome c oxidase assembly factor,
+7,4200001,4275000,0.174865546,0.065919577,0.036534843,M,0.445,ENSGACG00000019365,shbg,sex hormone-binding globulin,androgen binding
+7,4200001,4275000,0.174865546,0.065919577,0.036534843,M,0.098,ENSGACG00000019361,hdlbpb,high density lipoprotein binding protein b,"RNA binding, nucleic acid binding"
+7,4200001,4275000,0.174865546,0.065919577,0.036534843,F,0.065,ENSGACG00000019350,TRIP6,thyroid hormone receptor interactor 6,zinc ion binding
+7,6075001,6150000,0.1184413,0.14762184,0.006567134,M,0.071,ENSGACG00000019537,sec24d,"SEC24 homolog D, COPII coat complex component",
+7,22350001,22425000,0.094201616,0.120042262,0.024213936,F,0.496,ENSGACG00000020692,slc25a5,solute carrier family 25,
+7,22350001,22425000,0.094201616,0.120042262,0.024213936,F,0.019,ENSGACG00000020693,zbtb20,zinc finger and BTB domain containing 20,", DNA binding, protein binding, metal ion binding"
+8,6900001,6975000,0.077812071,0.066110791,0.033393352,M,0.414,ENSGACG00000006545,si:ch211-262h13.5,si:ch211-262h13.5,"cysteine-type endopeptidase inhibitor activity, extracellular space"
+8,6900001,6975000,0.077812071,0.066110791,0.033393352,F,0.092,ENSGACG00000006562,MCOLN3 (1 to many),mucolipin 3,"membrane, ion transport, ion channel activity, transmembrane transport"
+8,6900001,6975000,0.077812071,0.066110791,0.033393352,F,0.021,ENSGACG00000006551,gpsm2l,"G-protein signaling modulator 2, like","protein binding, identical protein binding, GTPase regulator activity"
+9,10050001,10125000,0.156381733,0.076104767,0.02530269,M,1.251,ENSGACG00000018120,IGFBP4,insulin like growth factor binding protein 4,"extracellular region, regulation of cell growth, insulin-like growth factor binding"
+9,10050001,10125000,0.156381733,0.076104767,0.02530269,F,0.009,ENSGACG00000018126,CISD3,CDGSH iron sulfur domain 3,"intracellular membrane-bounded organelle, 2 iron, 2 sulfur cluster binding"
+9,10050001,10125000,0.156381733,0.076104767,0.02530269,M,0.008,ENSGACG00000018128,PCGF2,polycomb group ring finger 2,"zinc ion binding, protein binding, metal ion binding"
+9,10425001,10500000,0.187077333,0.115175433,0.032595267,F,0.255,ENSGACG00000018210,trim25 (1 to many),tripartite motif containing 25,"intracellular, zinc ion binding, protein binding, protein ubiquitination, ubiquitin-protein transferase activity, metal ion binding"
+9,10425001,10500000,0.187077333,0.115175433,0.032595267,M,0.185,ENSGACG00000018206,rasal3 (1 to many),RAS protein activator like 3,"regulation of GTPase activity, "
+9,10425001,10500000,0.187077333,0.115175433,0.032595267,M,0.174,ENSGACG00000018208,trim25 (1 to many),tripartite motif containing 25,"intracellular, zinc ion binding, protein binding, protein ubiquitination, ubiquitin-protein transferase activity, metal ion binding"
+9,10425001,10500000,0.187077333,0.115175433,0.032595267,M,0.155,ENSGACG00000018202,SEC14L1 (1 to many),SEC14-like lipid binding 1,"cytokine receptor binding, immune response, extracellular region, integral component of membrane, transport"
+9,10425001,10500000,0.187077333,0.115175433,0.032595267,M,0.044,ENSGACG00000018216,cbx8b,chromobox homolog 8b,
+9,10650001,10725000,0.121478386,0.128169579,0.013648103,F,0.485,ENSGACG00000018233,pdcd11 (1 to many),programmed cell death 11,"RNA processing, intracellular, protein binding"
+9,10650001,10725000,0.121478386,0.128169579,0.013648103,M,0.102,ENSGACG00000018230,CEP95,centrosomal protein 95kDa,
+10,7350001,7425000,0.055612233,0.147526411,0.033290716,M,0.224,ENSGACG00000004817,rprd1a,regulation of nuclear pre-mRNA domain containing 1A,
+10,7350001,7425000,0.055612233,0.147526411,0.033290716,M,0.065,ENSGACG00000004837,si:ch211-13c6.2,si:ch211-13c6.2,"zinc ion binding, nucleic acid binding, metal ion binding, "
+10,7350001,7425000,0.055612233,0.147526411,0.033290716,F,0.055,ENSGACG00000004846,nfyc,"nuclear transcription factor Y, gamma","sequence-specific DNA binding, DNA binding, intracellular, retina development in camera-type eye"
+10,13125001,13200000,0.189017373,0.060272623,0.049050767,M,0.126,ENSGACG00000008805,ST3GAL1 (1 to many),"ST3 beta-galactoside alpha-2,3-sialyltransferase 1","integral component of Golgi membrane, sialyltransferase activity, protein glycosylation"
+10,13125001,13200000,0.189017373,0.060272623,0.049050767,M,0.014,ENSGACG00000008798,si:ch1073-296d18.1,si:ch1073-296d18.1,"NAD+ ADP-ribosyltransferase activity, nucleic acid binding"
+11,10425001,10500000,0.7563875,0.717484,0,M,0.317,ENSGACG00000011601,,,"intracellular protein transport, GTP binding, intracellular, signal transduction, membrane, protein transport, nucleocytoplasmic transport, GTPase activity, small GTPase mediated signal transduction"
+11,10425001,10500000,0.7563875,0.717484,0,M,0.198,ENSGACG00000011578,DXO,decapping exoribonuclease,rRNA processing
+11,10425001,10500000,0.7563875,0.717484,0,M,0.168,ENSGACG00000011550,si:ch211-256e16.3,si:ch211-256e16.3,"DNA repair, protein binding, methylated-DNA-[protein]-cysteine S-methyltransferase activity"
+11,10425001,10500000,0.7563875,0.717484,0,F,0.127,ENSGACG00000011592,stk19,serine/threonine kinase 19,
+12,7875001,7950000,0.2569278,0.230369076,0.000216042,F,0.363,ENSGACG00000006447,ybx1,Y box binding protein 1,"regulation of transcription, DNA-templated, DNA binding, nucleic acid binding, negative regulation of mRNA processing, establishment of RNA localization, negative regulation of mRNA splicing, via spliceosome, negative regulation of mRNA polyadenylation, negative regulation of translational initiation, eukaryotic initiation factor 4E binding, RNA binding"
+12,7875001,7950000,0.2569278,0.230369076,0.000216042,M,0.309,ENSGACG00000006452,arhgef16,Rho guanine nucleotide exchange factor,"regulation of Rho protein signal transduction, Rho guanyl-nucleotide exchange factor activity, protein binding"
+15,8175001,8250000,0.145391169,0.081073558,0.023380244,M,0.546,ENSGACG00000009968,crlf1a,cytokine receptor-like factor 1a,protein binding
+15,8175001,8250000,0.145391169,0.081073558,0.023380244,M,0.214,ENSGACG00000009976,keap1a,kelch-like ECH-associated protein 1a,"protein binding, cellular response to prostaglandin stimulus, cellular response to xenobiotic stimulus"
+16,9300001,9375000,0.081651724,0.07825725,0.006642126,F,0.123,ENSGACG00000004189,uggt2,UDP-glucose glycoprotein glucosyltransferase 2,"UDP-glucose:glycoprotein glucosyltransferase activity, protein glycosylation"
+16,9300001,9375000,0.081651724,0.07825725,0.006642126,F,0.009,ENSGACG00000004166,dnajc3a,DnaJ,"ribosome, translation, structural constituent of ribosome, protein binding"
+16,9975001,10050000,0.096805843,0.12184881,0.020575307,M,0.281,ENSGACG00000004687,gpr155a,G protein-coupled receptor 155a,"integral component of membrane, transmembrane transport, intracellular signal transduction"
+16,9975001,10050000,0.096805843,0.12184881,0.020575307,M,0.186,ENSGACG00000004749,si:ch73-167c12.2,"corepressor interacting with RBPJ, 1",
+16,9975001,10050000,0.096805843,0.12184881,0.020575307,M,0.132,ENSGACG00000004721,scrn3,secernin 3,"dipeptidase activity, proteolysis"
+16,17625001,17700000,0.087821775,0.174920588,0.027150049,M,0.2,ENSGACG00000009132,armc8,armadillo repeat containing 8,protein binding
+16,17625001,17700000,0.087821775,0.174920588,0.027150049,M,0.116,ENSGACG00000009047,dnajb11,DnaJ,
+16,17625001,17700000,0.087821775,0.174920588,0.027150049,M,0.096,ENSGACG00000009102,rab5b,"RAB5B, member RAS oncogene family","intracellular protein transport, GTP binding, intracellular, signal transduction, membrane, protein transport, nucleocytoplasmic transport, GTPase activity, small GTPase mediated signal transduction"
+16,17625001,17700000,0.087821775,0.174920588,0.027150049,F,0.054,ENSGACG00000009122,dbr1,debranching RNA lariats 1,"mRNA processing, hydrolase activity, acting on ester bonds, "
+17,4875001,4950000,0.130357358,0.067325082,0.025469442,M,0.348,ENSGACG00000006223,lmod1b,leiomodin 1b,"pointed-end actin filament capping, tropomyosin binding, actin binding"
+17,4875001,4950000,0.130357358,0.067325082,0.025469442,F,0.14,ENSGACG00000006233,ipo9,importin 9,
+17,4875001,4950000,0.130357358,0.067325082,0.025469442,M,0.058,ENSGACG00000006187,timm17a,translocase of inner mitochondrial membrane 17 homolog A,", intracellular protein transport, mitochondrial inner membrane presequence translocase complex, P-P-bond-hydrolysis-driven protein transmembrane transporter activity"
+17,4875001,4950000,0.130357358,0.067325082,0.025469442,F,0.043,ENSGACG00000006153,rap1ab,"RAP1A, member of RAS oncogene family b","intracellular protein transport, GTP binding, intracellular, signal transduction, membrane, protein transport, nucleocytoplasmic transport, GTPase activity, small GTPase mediated signal transduction"
+17,8025001,8100000,0.092204257,0.050911629,0.019746086,M,0.042,ENSGACG00000008661,tnks1bp1 (1 to many),tankyrase 1 binding protein 1,"ATP binding, DNA binding, DNA topological change, DNA topoisomerase type II (ATP-hydrolyzing) activity"
+17,8025001,8100000,0.092204257,0.050911629,0.019746086,F,0.032,ENSGACG00000008663,,,
+18,6225001,6300000,0.107587526,0.21521384,0.024026707,M,0.263,ENSGACG00000007459,gareml,"GRB2 associated, regulator of MAPK1-like",protein binding
+18,6300001,6375000,0.200318272,0.290753094,0.007450407,F,0.125,ENSGACG00000007478,,,
+18,6300001,6375000,0.200318272,0.290753094,0.007450407,F,0.064,ENSGACG00000007514,esr2a,estrogen receptor 2a,"sequence-specific DNA binding, transcription factor activity, sequence-specific DNA binding, steroid hormone mediated signaling pathway, regulation of transcription, DNA-templated, steroid binding, steroid hormone receptor activity, nucleus, DNA binding, zinc ion binding, steroid hormone binding, RNA polymerase II transcription factor activity, estrogen-activated sequence-specific DNA binding, estrogen receptor activity, response to estrogen"
+18,6300001,6375000,0.200318272,0.290753094,0.007450407,F,0.061,ENSGACG00000007483,syne2b,"spectrin repeat containing, nuclear envelope 2b",protein binding
+18,6450001,6525000,0.084937388,0.124306214,0.016622535,M,0.666,ENSGACG00000007631,clu,clusterin,cell death
+18,6450001,6525000,0.084937388,0.124306214,0.016622535,M,0.2,ENSGACG00000007571,heca,"hdc homolog, cell cycle regulator",
+18,6450001,6525000,0.084937388,0.124306214,0.016622535,F,0.195,ENSGACG00000007565,mtif3,mitochondrial translational initiation factor 3,"translational initiation, translation initiation factor activity"
+18,6450001,6525000,0.084937388,0.124306214,0.016622535,M,0.186,ENSGACG00000007582,abracl,ABRA C-terminal like,
+18,8550001,8625000,0.069054671,0.213068922,0.068178331,M,0.208,ENSGACG00000008921,snx3,sorting nexin 3,"erythrocyte differentiation, heme biosynthetic process, hemoglobin biosynthetic process, phosphatidylinositol binding"
+18,8550001,8625000,0.069054671,0.213068922,0.068178331,M,0.069,ENSGACG00000008950,ostm1,osteopetrosis associated transmembrane protein 1,
+18,11175001,11250000,0.039759523,0.084893033,0.049158387,F,0.278,ENSGACG00000011113,si:ch211-286f9.2,iodotyrosine deiodinase,
+18,11175001,11250000,0.039759523,0.084893033,0.049158387,F,0.239,ENSGACG00000011129,LINC00116,long intergenic non-protein coding RNA 116,
+18,11625001,11700000,0.094429025,0.018637623,0.039109251,F,0.101,ENSGACG00000011399,si:ch211-225h24.2,si:ch211-225h24.2,
+18,11625001,11700000,0.094429025,0.018637623,0.039109251,F,0.085,ENSGACG00000011452,tmem18,transmembrane protein 18,
+18,11625001,11700000,0.094429025,0.018637623,0.039109251,M,0.054,ENSGACG00000011402,fbxo25,F-box protein 25,
+18,11625001,11700000,0.094429025,0.018637623,0.039109251,F,0.022,ENSGACG00000011427,acp1,"acid phosphatase 1, soluble",
+19,7050001,7125000,0.019805626,0.015755206,0.018300474,F,1.031,ENSGACG00000005659,gtf2h1,"general transcription factor IIH, polypeptide 1",
+19,7050001,7125000,0.019805626,0.015755206,0.018300474,F,0.986,ENSGACG00000005590,INCENP,inner centromere protein,
+19,7050001,7125000,0.019805626,0.015755206,0.018300474,F,0.775,ENSGACG00000005561,athl1,"ATH1, acid trehalase-like 1","carbohydrate metabolic process, catalytic activity"
+19,7050001,7125000,0.019805626,0.015755206,0.018300474,F,0.676,ENSGACG00000005632,hps5,Hermansky-Pudlak syndrome 5,protein binding
+19,11550001,11625000,0.030804207,0.042760985,0.050857896,F,0.872,ENSGACG00000010024,AEBP2 (1 to many),AE binding protein 2,metal ion binding
+20,7875001,7950000,0.021004967,0.163615983,0.086679,M,0.563,ENSGACG00000007038,,,
+20,7875001,7950000,0.021004967,0.163615983,0.086679,M,0.331,ENSGACG00000007040,,,
+20,7875001,7950000,0.021004967,0.163615983,0.086679,M,0.175,ENSGACG00000007061,mrpl13,mitochondrial ribosomal protein L13,"ribosome, translation, structural constituent of ribosome"
+20,11025001,11100000,0.137780443,0.135639979,0.002270948,F,0.708,ENSGACG00000009439,znf574,zinc finger protein 574,"DNA binding, metal ion binding, definitive hemopoiesis, DNA binding, metal ion binding, definitive hemopoiesis"
+20,11025001,11100000,0.137780443,0.135639979,0.002270948,F,0.379,ENSGACG00000009451,,,
+20,11025001,11100000,0.137780443,0.135639979,0.002270948,F,0.237,ENSGACG00000009439,znf574,zinc finger protein 574,"DNA binding, metal ion binding, definitive hemopoiesis, DNA binding, metal ion binding, definitive hemopoiesis"
+20,11025001,11100000,0.137780443,0.135639979,0.002270948,F,0.019,ENSGACG00000009449,znf526,zinc finger protein 526,"zinc ion binding, transcription, DNA-templated, nucleic acid binding, metal ion binding"
+21,2925001,3.00E+06,0.21736545,0.17636065,0.00563495,M,0.506,ENSGACG00000002155,RAMP3,receptor,"intracellular protein transport, integral component of membrane, regulation of G-protein coupled receptor protein signaling pathway, protein transporter activity"
+21,9675001,9750000,0.159078222,0.092084111,0.022575013,M,0.458,ENSGACG00000004347,SOX17 (1 to many),SRY-box 17,
+21,9675001,9750000,0.159078222,0.092084111,0.022575013,M,0.086,ENSGACG00000004365,vps41,vacuolar protein sorting 41 homolog,"intracellular protein transport, zinc ion binding, protein binding, vesicle-mediated transport"
+21,9675001,9750000,0.159078222,0.092084111,0.022575013,F,0.009,ENSGACG00000004363,,,
+21,9675001,9750000,0.159078222,0.092084111,0.022575013,M,0.005,ENSGACG00000004359,esco1,establishment of sister chromatid cohesion N-acetyltransferase 1,
+21,10650001,10725000,0.118972513,0.056434475,0.046541341,M,0.094,ENSGACG00000004967,ralaa,v-ral simian leukemia viral oncogene homolog Aa,
+21,10650001,10725000,0.118972513,0.056434475,0.046541341,M,0.077,ENSGACG00000004953,fbxl7,F-box and leucine-rich repeat protein 7,protein binding
+21,10650001,10725000,0.118972513,0.056434475,0.046541341,F,0.034,ENSGACG00000004982,cdk13,cyclin-dependent kinase 13,"ATP binding, protein tyrosine kinase activity, protein phosphorylation, protein kinase activity"
+22,5550001,5625000,0.117639281,0.135303765,0.014322729,M,0.452,ENSGACG00000000869,CLEC19A (1 to many),C-type lectin domain family 19 member A,

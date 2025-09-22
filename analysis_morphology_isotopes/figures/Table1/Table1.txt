@@ -1,0 +1,22 @@
+			Common			White					No covariate		Standard length as covariate	
+trait	Biological function	Units	Mean	SD	n	Mean	SD	n	Cohen's D	Linear model + Test	Test statistic	FDR corrected p	Test statistic	FDR corrected p
+Body depth	Trophic	cm	1.23	0.12	161	0.95	0.12	73	-2.29	"Gaussian, ANOVA"	"F1,232 = 263.96"	0	"F1,231 = 0.52"	0.67903152
+Egg number	Life history	eggs	86.28	25.43	36	50.52	17.46	23	-1.58	"Poisson, ANODE"	"D1,57 = 260.3879"	0	"D1,54 = 0.6548"	0.65222287
+Standard length	"Trophic, mating"	cm	4.86	0.84	230	3.76	0.58	132	-1.45	"Gaussian, ANOVA"	"F1,360 = 175.89"	0	-	-
+Pelvic spine length	Predation	cm	0.83	0.13	157	0.68	0.12	72	-1.14	"Gaussian, ANOVA"	"F1,227 = 63.92"	0	"F1,226 = 8.75"	0.01515457
+Testis weight	Mating	mg	0.78	0.24	53	0.55	0.13	31	-1.12	"Gaussian, ANOVA"	"F1,82 = 24.72"	2.26E-05	"F1,81 = 1.61"	0.40851627
+2nd dorsal spine length	Predation	cm	0.56	0.14	226	0.49	0.09	131	-0.55	"Gaussian, ANOVA"	"F1,355 = 25.35"	5.76E-06	"F1,353 = 1.25"	0.46797943
+1st dorsal spine length	Predation	cm	0.51	0.16	226	0.44	0.12	131	-0.52	"Gaussian, ANOVA"	"F1,355 = 22.03"	2.26E-05	"F1,353 = 0.4"	0.69933106
+Body lightness	Mating?	Intensity (R+G+B)	474.81	38.91	166	491.7	49.99	73	0.4	"Gaussian, ANOVA"	"F1,237 = 7.98"	0.02089591	"F1,229 = 1.54"	0.40990118
+Long gill raker count	Trophic	rakers	20.26	1.5	70	20.83	1.42	59	0.39	"Poisson, ANODE"	"D1,127 = 0.5125"	0.67903152	"D1,125 = 0.1489"	0.78884518
+Armor plate count	Predation	plates	31.41	1.01	70	31.02	1.12	59	-0.37	"Poisson, ANODE"	"D1,127 = 0.1619"	0.78884518	"D1,125 = 0.0168"	0.91420585
+Egg diameter	Life history	mm	1.23	0.28	36	1.32	0.17	23	0.35	"Gaussian, ANOVA"	"F1,57 = 1.76"	0.40851627	"F1,54 = 6.07"	0.06414574
+Short gill raker count	Trophic	rakers	15.14	1.09	70	15.44	0.93	59	0.29	"Poisson, ANODE"	"D1,127 = 0.1858"	0.78884518	"D1,125 = 0.0982"	0.79928057
+Egg weight	Life history	mg	2.83	1.39	36	2.53	0.57	23	-0.26	"Gaussian, ANOVA"	"F1,57 = 0.93"	0.5597995	"F1,54 = 1.67"	0.40851627
+3rd dorsal spine length	Predation	cm	0.16	0.06	160	0.15	0.05	72	-0.23	"Gaussian, ANOVA"	"F1,230 = 2.65"	0.27744623	"F1,229 = 0.45"	0.68454223
+Body shape PC2	Trophic?	-	0	0.01	122	0	0.01	70	0.22	"Gaussian, ANOVA"	"F1,190 = 2.06"	0.36800205	"F1,189 = 0.75"	0.6222896
+Body shape PC3	?	-	0	0.02	122	0	0.01	70	0.19	"Gaussian, ANOVA"	"F1,190 = 1.64"	0.40851627	"F1,189 = 0.18"	0.78884518
+Body shape PC1	?	-	0	0.02	122	0	0.02	70	0.14	"Gaussian, ANOVA"	"F1,190 = 0.93"	0.5597995	"F1,189 = 0.08"	0.80151555
+Body shape PC6	?	-	0	0.01	122	0	0.01	70	-0.12	"Gaussian, ANOVA"	"F1,190 = 0.59"	0.67104825	"F1,189 = 0.11"	0.79813629
+Body shape PC5	?	-	0	0.02	122	0	0.01	70	0.07	"Gaussian, ANOVA"	"F1,190 = 0.2"	0.78884518	"F1,189 = 1.76"	0.40851627
+Body shape PC4	?	-	0	0.01	122	0	0.01	70	0	"Gaussian, ANOVA"	"F1,190 = 0"	0.97494769	"F1,189 = 2.42"	0.30629593

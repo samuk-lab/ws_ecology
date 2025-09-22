@@ -1,0 +1,134 @@
+######################################################################
+# Analysis of standard length and spine data
+# Kieran Samuk - Apr 2016
+######################################################################
+
+######################################################################
+# Libraries
+######################################################################
+
+library("dplyr")
+library("tidyr")
+library("ggplot2")
+library("ggthemes")
+library("broom")
+library("ggrepel")
+
+#list.files("functions", full.names = TRUE) %>% sapply(source) %>% invisible
+
+select<- dplyr::select #allows dplyr to use select when MASS package is loaded
+
+# the white stickleback palatte
+whtstbk_palatte <- c("#77AB43", "#008FD5", "#BDBDBD")
+
+setwd("analysis_morphology")
+
+######################################################################
+# input data
+######################################################################
+
+# raw morphometrics data for 2014 (std. length, spines, landmarks)
+morpho_df <- read.csv("data/whtstbk_morphometrics_all.csv")
+
+# meta data file from genotypic analysis
+meta_df <- read.csv("metadata/mega_meta.csv")
+
+# harmonize ids
+morpho_df <- morpho_df %>%
+  mutate(id = paste0(population, individual) %>% gsub("CP[a-zA-Z]*", "CP", .))
+
+# join meta data to morpho data
+
+# prep meta data for join
+
+meta_df <- meta_df %>%
+  select(id, cluster, sex) %>%
+  rename(geno_sex = sex)
+
+# join in cluster/geno sex and remove landmark data (explored in 01_body...)
+morpho_df <- left_join(morpho_df, meta_df, by = "id") %>%
+  select(-matches("^[x,y]{1}\\.")) %>%
+  select(-matches("^lndmrk"))
+
+######################################################################
+# standard length
+######################################################################
+
+morpho_df <- morpho_df %>%
+  select(-species, -photo.id, -individual, -notes)
+
+morpho_df %>%
+  filter(!is.na(cluster)) %>%
+  ggplot(aes(y = std.length, x = cluster, color = cluster, label = id)) +
+  geom_point()+
+  geom_label_repel()
+  
+morpho_long <- gather(morpho_df, key = trait, value = value, -population, -year, -sex, -id, -cluster, -geno_sex)
+
+morpho_long %>%
+  filter(!is.na(cluster)) %>%
+  filter(!is.na(geno_sex)) %>%
+  filter(value < 10) %>%
+  filter(trait != "spine.length.3") %>%
+  filter(trait != "std.length.1") %>%
+  ggplot(aes(y = value, x = cluster, color = cluster, group = geno_sex)) +
+  geom_jitter() +
+  stat_summary(fun.y = median, fun.ymin = median, fun.ymax = median, 
+               geom = "crossbar", width = 0.9, color = "black", fatten = 2) +
+  facet_wrap(~trait, scales = "free", nrow = 1) +
+  scale_color_manual(values = whtstbk_palatte)
+
+######################################################################
+# size correction
+######################################################################
+
+morpho_corr_long <- gather(morpho_df, key = trait, value = value, -population, -year, -sex, -id, -cluster, -geno_sex, -std.length)
+
+morpho_corr_long <- morpho_corr_long %>%
+  filter(!is.na(cluster)) %>%
+  filter(!is.na(geno_sex)) %>%
+  filter(!is.na(std.length)) %>%
+  filter(value < 10) %>%
+  filter(trait != "spine.length.3") %>%
+  filter(trait != "std.length.1") 
+
+resid <- morpho_corr_long %>%
+  group_by(trait) %>%
+  do(augment(lm(value ~ std.length, data=.))) %>%
+  ungroup %>%
+  select(.resid) %>%
+  unlist %>% as.numeric
+
+morpho_corr_long$resid_score <- resid
+
+######################################################################
+# write collated file
+######################################################################
+
+spine_depth <- morpho_corr_long %>% 
+  select(-resid_score) %>% 
+  spread(key = trait, value = value)
+
+spine_depth %>%
+  select(id, std.length, depth.1, depth.2, matches("spine")) %>%
+  rename(std_length = std.length, body_depth1 = depth.1, body_depth2 = depth.2, 
+         spine_dorsal1 = spine.1, spine_dorsal2 = spine.2, spine_dorsal3 = spine.3, spine_pelvic = spine.pelvic) %>%
+  write.table(., file = "data/collated/raw_spine_depth_sl.txt", quote = FALSE, row.names = FALSE)
+
+######################################################################
+# plots
+######################################################################
+
+morpho_corr_long %>%
+  #filter(geno_sex == "M", trait == "depth.1") %>%
+  ggplot(aes(y = resid_score, x = cluster, color = cluster, group = geno_sex, label = id)) +
+  geom_jitter() +
+  stat_summary(fun.y = median, fun.ymin = median, fun.ymax = median, 
+               geom = "crossbar", width = 0.9, color = "black", fatten = 2) +
+  facet_wrap(geno_sex~trait, scales = "free", nrow = 2, ncol = 6) +
+  scale_color_manual(values = whtstbk_palatte)+
+  theme_bw()
+  #geom_label_repel()
+
+
+
